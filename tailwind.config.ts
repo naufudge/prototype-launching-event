@@ -12,6 +12,11 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        poppins: "var(--font-poppins)",
+        lexend: "var(--font-lexend)",
+        playfair: "var(--font-playfair)"
+      }
     },
   },
   plugins: [],
