@@ -30,5 +30,10 @@ body {
   background-image: radial-gradient(circle,#1388e8, #000d9a);
 }
 .launch-button {
-  background-image: radial-gradient(circle, #DC143C, #8B0000)
+  background-image: radial-gradient(circle, #DC143C, #8B0000);
+  position: absolute;
+}
+
+.fireworks {
+  
 }
