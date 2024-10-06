@@ -15,7 +15,8 @@ const config: Config = {
       fontFamily: {
         poppins: "var(--font-poppins)",
         lexend: "var(--font-lexend)",
-        playfair: "var(--font-playfair)"
+        playfair: "var(--font-playfair)",
+        aammufk: "var(--font-aammufk)"
       }
     },
   },

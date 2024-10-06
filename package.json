@@ -16,7 +16,8 @@
     "react-canvas-confetti": "^2.0.7",
     "react-dom": "^18",
     "react-tsparticles": "^2.12.2",
-    "tsparticles": "^3.5.0"
+    "tsparticles": "^3.5.0",
+    "use-sound": "^4.0.3"
   },
   "devDependencies": {
     "@types/node": "^20",

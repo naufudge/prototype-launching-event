@@ -18,6 +18,11 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+const aammufk = localFont({
+  src: "./fonts/aammufkF.ttf",
+  variable: "--font-aammufk",
+})
+
 export const metadata: Metadata = {
   title: "Prototype Launching",
   description: "Digital Preservation System - Prototype Launching",
@@ -29,7 +34,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${poppins.variable} ${lexend.variable} ${playfair.variable}`}>
+    <html lang="en" className={`${poppins.variable} ${lexend.variable} ${playfair.variable} ${aammufk.variable}`}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
